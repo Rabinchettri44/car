@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMW Cars</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @keyframes fadeIn {
+            0% { opacity: 0; transform: translateY(20px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+
+        .fade-in {
+            opacity: 0;
+            animation: fadeIn 1s ease-in-out forwards;
+        }
+
+        .fade-in:nth-child(1) { animation-delay: 0.3s; }
+        .fade-in:nth-child(2) { animation-delay: 0.6s; }
+        .fade-in:nth-child(3) { animation-delay: 0.9s; }
+        .fade-in:nth-child(4) { animation-delay: 1.2s; }
+        .fade-in:nth-child(5) { animation-delay: 1.5s; }
+        .fade-in:nth-child(6) { animation-delay: 1.8s; }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <marquee class="text-primary display-4" behavior="scroll" direction="left" scrollamount="5">BMW Cars Collection</marquee>
+        <div class="row">
+            <div class="col-md-4 fade-in">
+                <div class="card">
+                    <img src="https://c4.wallpaperflare.com/wallpaper/812/555/795/bmw-car-wallpaper-preview.jpg" class="card-img-top" alt="BMW X5">
+                    <div class="card-body text-center">
+                        <h2 class="card-title">BMW X5</h2>
+                        <p class="card-text">Price: INR 54,00,000</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 fade-in">
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/100650/pexels-photo-100650.jpeg?cs=srgb&dl=pexels-mikebirdy-100650.jpg&fm=jpg" class="card-img-top" alt="BMW M4">
+                    <div class="card-body text-center">
+                        <h2 class="card-title">BMW M4</h2>
+                        <p class="card-text">Price: INR 66,00,000</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 fade-in">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1523983388277-336a66bf9bcd?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Ym13JTIwY2Fyc3xlbnwwfHwwfHx8MA%3D%3D" class="card-img-top" alt="BMW i8">
+                    <div class="card-body text-center">
+                        <h2 class="card-title">BMW i8</h2>
+                        <p class="card-text">Price: INR 1,22,00,000</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 fade-in">
+                <div class="card">
+                    <img src="https://img.freepik.com/premium-photo/bmw-car-dim-2d-color-cinematic-8k-resolution-high-quality_1194579-14177.jpg" class="card-img-top" alt="BMW 7 Series">
+                    <div class="card-body text-center">
+                        <h2 class="card-title">BMW 7 Series</h2>
+                        <p class="card-text">Price: INR 85,00,000</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 fade-in">
+                <div class="card">
+                    <img src="https://m.media-amazon.com/images/I/71Ay-qAhGDL._AC_UF894,1000_QL80_.jpg" class="card-img-top" alt="BMW Z4">
+                    <div class="card-body text-center">
+                        <h2 class="card-title">BMW Z4</h2>
+                        <p class="card-text">Price: INR 42,00,000</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 fade-in">
+                <div class="card">
+                    <img src="https://bsmedia.business-standard.com/_media/bs/img/article/2021-08/03/full/1628002523-2855.JPG?im=FeatureCrop,size=(826,465)" class="card-img-top" alt="BMW M3 CS">
+                    <div class="card-body text-center">
+                        <h2 class="card-title">BMW M3 CS</h2>
+                        <p class="card-text">Price: INR 72,00,000</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="index.html" class="btn btn-secondary mt-3">Back</a>
+    </div>
+</body>
+</html>

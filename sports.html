@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Cars</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @keyframes fadeIn {
+            0% { opacity: 0; transform: translateY(20px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+
+        .fade-in {
+            opacity: 0;
+            animation: fadeIn 1s ease-in-out forwards;
+        }
+
+        .fade-in:nth-child(1) { animation-delay: 0.3s; }
+        .fade-in:nth-child(2) { animation-delay: 0.6s; }
+        .fade-in:nth-child(3) { animation-delay: 0.9s; }
+        .fade-in:nth-child(4) { animation-delay: 1.2s; }
+        .fade-in:nth-child(5) { animation-delay: 1.5s; }
+        .fade-in:nth-child(6) { animation-delay: 1.8s; }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <marquee class="text-danger display-4" behavior="scroll" direction="left" scrollamount="5">Sports Cars Collection</marquee>
+        <div class="row">
+            <div class="col-md-4 fade-in">
+                <div class="card">
+                    <img src="https://img.etimg.com/thumb/width-1200,height-1200,imgsize-69266,resizemode-75,msid-106774994/industry/auto/cars-uvs/super-sports-car-segment-in-india-to-register-30-pc-growth-this-year-mclaren-automotive.jpg" class="card-img-top" alt="McLaren">
+                    <div class="card-body text-center">
+                        <h2 class="card-title">McLaren</h2>
+                        <p class="card-text">Price: INR 3,00,00,000</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 fade-in">
+                <div class="card">
+                    <img src="https://www.usnews.com/object/image/00000191-d821-d8b8-adf7-f97944b10000/chevrolet-corvette-zr1-coupe-001.jpg?update-time=1725907944302&size=responsiveGallery" class="card-img-top" alt="Chevrolet Corvette ZR1">
+                    <div class="card-body text-center">
+                        <h2 class="card-title">Chevrolet Corvette ZR1</h2>
+                        <p class="card-text">Price: INR 1,50,00,000</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 fade-in">
+                <div class="card">
+                    <img src="https://imageio.forbes.com/specials-images/imageserve/6064c6802c761b99a89d1f21/0x0.jpg?format=jpg&crop=2375,1336,x0,y120,safe&height=900&width=1600&fit=bounds" class="card-img-top" alt="Porsche 911 Turbo S">
+                    <div class="card-body text-center">
+                        <h2 class="card-title">Porsche 911 Turbo S</h2>
+                        <p class="card-text">Price: INR 2,30,00,000</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 fade-in">
+                <div class="card">
+                    <img src="https://i.ytimg.com/vi/kI_0E5uiqEM/maxresdefault.jpg" class="card-img-top" alt="Ferrari F8 Tributo">
+                    <div class="card-body text-center">
+                        <h2 class="card-title">Ferrari F8 Tributo</h2>
+                        <p class="card-text">Price: INR 3,50,00,000</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 fade-in">
+                <div class="card">
+                    <img src="https://www.popsci.com/wp-content/uploads/2021/06/15/lambo.jpeg?quality=85" class="card-img-top" alt="Lamborghini Aventador">
+                    <div class="card-body text-center">
+                        <h2 class="card-title">Lamborghini Aventador</h2>
+                        <p class="card-text">Price: INR 5,00,00,000</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 fade-in">
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk69OmhcDobJliTCHHZXQClomXpV8Jy5fjMQ&s" class="card-img-top" alt="Bugatti Chiron">
+                    <div class="card-body text-center">
+                        <h2 class="card-title">Bugatti Chiron</h2>
+                        <p class="card-text">Price: INR 19,00,00,000</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="index.html" class="btn btn-secondary mt-3">Back</a>
+    </div>
+</body>
+</html>

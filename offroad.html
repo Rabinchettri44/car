@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Off-Road Cars</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @keyframes fadeIn {
+            0% { opacity: 0; transform: translateY(20px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+
+        .fade-in {
+            opacity: 0;
+            animation: fadeIn 1s ease-in-out forwards;
+        }
+
+        .fade-in:nth-child(1) { animation-delay: 0.3s; }
+        .fade-in:nth-child(2) { animation-delay: 0.6s; }
+        .fade-in:nth-child(3) { animation-delay: 0.9s; }
+        .fade-in:nth-child(4) { animation-delay: 1.2s; }
+        .fade-in:nth-child(5) { animation-delay: 1.5s; }
+        .fade-in:nth-child(6) { animation-delay: 1.8s; }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <marquee class="text-primary display-4" behavior="scroll" direction="left" scrollamount="5">Off-Road Cars Collection</marquee>
+        <div class="row">
+            <div class="col-md-4 fade-in">
+                <div class="card">
+                    <img src="https://imgd-ct.aeplcdn.com/1056x660/n/cw/ec/124839/thar-roxx-exterior-left-front-three-quarter-20.jpeg" class="card-img-top" alt="Mahindra Thar">
+                    <div class="card-body text-center">
+                        <h2 class="card-title">Mahindra Thar</h2>
+                        <p class="card-text">Price: INR 15,00,000</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 fade-in">
+                <div class="card">
+                    <img src="https://www.financialexpress.com/wp-content/uploads/2024/10/toyota-fortuner-leader-edition_20241001131301.jpg" class="card-img-top" alt="Toyota Fortuner">
+                    <div class="card-body text-center">
+                        <h2 class="card-title">Toyota Fortuner</h2>
+                        <p class="card-text">Price: INR 48,00,000</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 fade-in">
+                <div class="card">
+                    <img src="https://www.motortrend.com/uploads/2022/03/007-2006-hummer-h1.jpg" class="card-img-top" alt="Hummer H1">
+                    <div class="card-body text-center">
+                        <h2 class="card-title">Hummer H1</h2>
+                        <p class="card-text">Price: INR 1,25,00,000</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 fade-in">
+                <div class="card">
+                    <img src="https://www.topgear.com/sites/default/files/2023/02/defender1.jpg" class="card-img-top" alt="Jeep Wrangler">
+                    <div class="card-body text-center">
+                        <h2 class="card-title">Jeep Wrangler</h2>
+                        <p class="card-text">Price: INR 35,00,000</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 fade-in">
+                <div class="card">
+                    <img src="https://www.goodwood.com/globalassets/.road--racing/road/news/2024/05-may/9-best-offroaders/land-cruiser-copy.jpg" class="card-img-top" alt="Ford Bronco">
+                    <div class="card-body text-center">
+                        <h2 class="card-title">Ford Bronco</h2>
+                        <p class="card-text">Price: INR 40,00,000</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 fade-in">
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqMCyfqeCQ0CgJlxwSbukMf4q_sr1VwrkUQQ&s" class="card-img-top" alt="Land Rover Defender">
+                    <div class="card-body text-center">
+                        <h2 class="card-title">Land Rover Defender</h2>
+                        <p class="card-text">Price: INR 92,00,000</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="index.html" class="btn btn-secondary mt-3">Back</a>
+    </div>
+</body>
+</html>
